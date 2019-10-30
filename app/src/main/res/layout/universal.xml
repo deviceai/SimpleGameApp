@@ -230,6 +230,38 @@
 
 
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/text_left"
+                        android:text="Text Left"
+                        android:textColor="@color/White"
+                        android:textSize="30sp"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        />
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/text_right"
+                    android:text="Text Right"
+                    android:textColor="@color/White"
+                    android:textSize="30sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+
+
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
